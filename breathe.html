@@ -54,7 +54,7 @@
 
 </head>
 <body class="body">
-  <div data-w-id="8a76de2a-900e-f612-85a2-a15a1e9bae82" class="bg"><img src="info.svg" alt="" class="icon"></div>
+  <div data-w-id="8a76de2a-900e-f612-85a2-a15a1e9bae82" id="myBtn" class="bg"><img src="images/icons/info.svg" alt="" class="icon"></div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ef907c03046b6437059c372" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="animation.js" type="text/javascript"></script>
 
@@ -68,6 +68,59 @@
     <div class="circle"></div>
   </div>
 </div>
+
+<h2>Animated Modal with Header and Footer</h2>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="h2">
+      <span class="close">
+        <div data-w-id="8a76de2a-900e-f612-85a2-a15a1e9bae82" id="myBtn" class="bg"><img src="images/icons/exit.svg" alt="" class="icon" class="close"></div>
+        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ef907c03046b6437059c372" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="animation.js" type="text/javascript"></script>
+      </span>
+      <h2>Breathe × WATCH app in browser</h2>
+    </div>
+    <div class="description">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et tellus lectus. Aenean rutrum ante est, quis imperdiet est aliquam ac. Pellentesque fringilla velit eros, vitae consectetur velit tempus at. Etiam sagittis semper nisl vitae scelerisque. Duis lobortis sodales efficitur. Sed nulla arcu, rutrum at feugiat eget, dapibus et nulla. Pellentesque finibus ex vel quam dictum, et gravida lectus euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eget turpis et lacus sagittis sollicitudin. Donec non rutrum quam. Nullam tincidunt velit ut consectetur malesuada.</p>
+      <p>Proin auctor ante non mauris semper, ac facilisis dui bibendum. Nam non fringilla diam. Proin vitae lectus ac neque suscipit tempus. Nulla posuere erat mi, et mattis libero ultricies eu. Pellentesque semper convallis nibh, eget rhoncus lectus volutpat ut. Quisque pharetra rutrum pharetra. Etiam egestas urna non diam gravida vestibulum. Suspendisse orci felis, tincidunt quis arcu bibendum, euismod finibus urna. In a tristique eros. Sed a eleifend lectus. Aliquam ac erat in tortor semper facilisis. Donec congue, metus a rutrum vestibulum, ante arcu maximus magna, ac rhoncus dolor felis in ante. Etiam eget lectus commodo, interdum felis a, vehicula urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+    </div>
+    <div class="description">
+      <p>Modal Footer</p>
+    </div>
+  </div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 
 <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ed40f0c7eda2a354ecf3cdd" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="animation.js" type="text/javascript"></script>
