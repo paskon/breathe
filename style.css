@@ -15,6 +15,7 @@
 
 .h2 {
   margin-top: 0px;
+  font-family: 'Acumin bdpro', sans-serif;
   margin-bottom: 0px;
   color: #fff;
   font-size: 30px;
@@ -29,6 +30,7 @@
 }
 
 .description {
+  font-family: 'Acumin bdpro', sans-serif;
   margin: 0px;
   padding-right: 0px;
   color: #fff;
@@ -38,6 +40,31 @@
   text-decoration: none;
   text-indent: 0px;
   white-space: normal;
+}
+
+.copyrights {
+  font-family: 'Acumin bdpro', sans-serif;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.link {
+  font-family: 'Acumin bdpro', sans-serif;
+  margin-right: 8px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .icon-card {
@@ -212,7 +239,7 @@
   border-radius: 20px;
   background-color: #212428;
   margin: auto;
-  padding: 0px 32px 8px 40px ;
+  padding: 0px 32px 40px 40px ;
   border: 1px solid #212429;
   width: 80%;
   -webkit-animation-name: animatetop;
