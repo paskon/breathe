@@ -219,6 +219,13 @@
   background-color: #212428;
 }
 
+.divider {
+  height: 2px;
+  margin: 80px 0px 80px 0px;
+  padding-right: 0px;
+  background-color: #15181d;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
