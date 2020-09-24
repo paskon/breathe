@@ -14,6 +14,29 @@
   line-height: 80px;
 }
 
+.navigation {
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.link-left {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.link-right {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
 .h2 {
   margin-top: 0px;
   font-family: 'Acumin bdpro', sans-serif;
