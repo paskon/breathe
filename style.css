@@ -335,9 +335,10 @@
 
 .photo.safari {
   background-image: url('../images/safari-settings.png');
+}
 
-@media screen and (max-width: 991px){
-  .modal {
+@media screen and (max-width:991px) {
+  .modal{
     width: 100%;
   }
 }
