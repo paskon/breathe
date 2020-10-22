@@ -257,7 +257,7 @@
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
+  width: 40%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   /* background-color: #015B67; /* Fallback color */
@@ -335,3 +335,9 @@
 
 .photo.safari {
   background-image: url('../images/safari-settings.png');
+
+@media screen and (max-width: 991px){
+  .modal {
+    width: 100%;
+  }
+}
