@@ -1,6 +1,6 @@
 .body {
-  margin-left: 24px;
-  margin-top: 24px;
+  margin-left: 16px;
+  margin-top: 16px;
   background: #1D1D1D;
   font-family: 'Acumin rpro', sans-serif;
 }
@@ -270,12 +270,12 @@
   position: relative;
   border-radius: 20px;
   background-color: #050505;
-  margin-top: 24px;
+  margin-top: 16px;
   margin-bottom: 40px;
   padding: 0px 32px 40px 40px ;
   border: 1px solid #212429;
   width: 30%;
-  overflow: auto;
+  /* overflow: auto; */
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.2s;
   animation-name: animatetop;
@@ -343,10 +343,12 @@
 @media screen and (max-width:991px){
   .modal{
     width: auto;
-    padding-right: 24px;
+    padding-left: 0px;
+    padding-right: 16px;
   }
   .modal-content{
-    margin-top: 24px;
+    padding: 0px 16px 24px 24px ;
+    margin-top: 16px;
     width: auto;
   }
 }
