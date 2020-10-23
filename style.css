@@ -254,7 +254,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 80px; /* Location of the box */
+  /* padding-top: 80px; /* Location of the box */ */
   /* margin-left: 40px; */
   left: 0;
   top: 0;
@@ -270,7 +270,7 @@
   position: relative;
   border-radius: 20px;
   background-color: #050505;
-  margin: auto;
+  margin-top: 88px;
   padding: 0px 32px 40px 40px ;
   border: 1px solid #212429;
   width: 80%;
@@ -339,8 +339,12 @@
 }
 
 @media screen and (max-width:991px) {
-  .modal{
+.modal{
     width: 100%;
     /* margin-left: 24px; */
   }
+}
+
+.modal-content{
+  
 }
