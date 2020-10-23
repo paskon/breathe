@@ -258,7 +258,7 @@
   /* margin-left: 40px; */
   left: 0;
   top: 0;
-  width: 40%; /* Full width */
+  width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   /* background-color: #015B67; /* Fallback color */
@@ -270,10 +270,12 @@
   position: relative;
   border-radius: 20px;
   background-color: #050505;
-  margin-top: 88px;
+  margin-top: 24px;
+  margin-bottom: 40px;
   padding: 0px 32px 40px 40px ;
   border: 1px solid #212429;
-  width: 80%;
+  width: 30%;
+  overflow: auto;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.2s;
   animation-name: animatetop;
@@ -338,13 +340,13 @@
   background-image: url('../images/safari-settings.png');
 }
 
-@media screen and (max-width:991px) {
-.modal{
-    width: 100%;
-    /* margin-left: 24px; */
+@media screen and (max-width:991px){
+  .modal{
+    width: auto;
+    padding-right: 24px;
   }
-}
-
-.modal-content{
-  
+  .modal-content{
+    margin-top: 24px;
+    width: auto;
+  }
 }
